@@ -144,7 +144,7 @@ def start(add, plus_ent, multi_ent, pow_ent):
         while address[i]!="/":
             name=address[i]+name
             i-=1
-        featfind=r"C:\Users\Mojtaba\Desktop\Histogram\featfind\featfind.exe"
+        featfind=r"C:\Users\hossein\Desktop\Histogram\featfind\featfind.exe"
         values=check_output([featfind,address,name],universal_newlines=True)
         values=values.split(",\n")
         values.pop()
